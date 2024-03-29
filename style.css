@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2, h3 {
+    color: #1900ff;
+}
+
+canvas {
+    border: 2px solid #000000;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #0004ff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #04044d;
+}
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+.user-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-list li span {
+    cursor: pointer;
+    text-decoration: None;
+    margin-right: 10px;
+    color: #09488b;
+}
+.cross-symbol {
+    font-size: 10px;
+    color: #fafafa;
+    cursor: pointer;
+}
+.cross-symbol:hover {
+    color: #f6f7fd;
+}
+.download-btn {
+    padding: 8px 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.download-btn:hover {
+    background-color: #013a85;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signature Saver</title>
+<link rel="stylesheet" href="./style.css">
+<style>
+
+</style>
+</head>
+<body>
+<div class="container">
+    <h2 style="text-align: center;">Draw Your Signature</h2>
+    <canvas id="signatureCanvas" width="600" height="200"></canvas>
+    <input type="text" id="username" placeholder="User Name">
+    <button onclick="saveSignature()">Save Signature</button>
+    <button onclick="clearSignature()">Clear</button>
+    <h3 style="text-align: center;">Saved Sign</h3>
+    <ul class="user-list" id="userList"></ul>
+    <div id="signatureDisplay"></div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
+
