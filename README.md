@@ -26,9 +26,6 @@ The Signature Web App is a simple yet powerful tool designed to streamline the p
 ## Technologies Used
 
 - **Frontend**: HTML5, CSS3, JavaScript (React.js)
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JSON Web Tokens (JWT)
 - **Document Processing**: PDF.js, DocuSign API (optional)
 - **Security**: HTTPS, Encryption (AES-256)
 
@@ -36,16 +33,11 @@ The Signature Web App is a simple yet powerful tool designed to streamline the p
 
 To run the Signature Web App locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/signature-web-app.git`
-2. Navigate to the project directory: `cd signature-web-app`
-3. Install dependencies: `npm install`
-4. Start the server: `npm start`
-5. Access the web app in your browser at `http://localhost:3000`
+1. Clone the repository: `git clone https://github.com/yourusername/signature_app`
+2. Navigate to the project directory: `cd signature_app`
+3. Open in vs code also add extension of live server and go live. 
+4. Access the web app in your browser at `http://localhost:5500`
 
 ## Contributing
 
-Contributions are welcome! Feel free to fork the repository and submit pull requests for new features, bug fixes, or improvements. Please follow the [Contribution Guidelines](CONTRIBUTING.md) before making any contributions.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+Contributions are welcome! Feel free to fork the repository and submit pull requests for new features, bug fixes, or improvements.
