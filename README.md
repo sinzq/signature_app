@@ -2,7 +2,8 @@
 
 Check out the live demo of the Signature Web Application [here](https://sinzq.github.io/signature_app/).
 
-| ![Octocat](https://myoctocat.com/assets/images/base-octocat.svg) | ![Signature Web App](https://github.com/sinzq/Signature_WebApp/assets/122508336/d1417ef6-40ea-4c7b-bdea-38b1147d0554) ||
+
+| ![Screenshot_2024-03-29_132127-removebg-preview](https://github.com/sinzq/signature_app/assets/122508336/fedeb405-470f-4eb2-828f-f99d509d9751) | ![Signature Web App](https://github.com/sinzq/Signature_WebApp/assets/122508336/d1417ef6-40ea-4c7b-bdea-38b1147d0554) |
 |---|---|
 
 # Signature Web App
